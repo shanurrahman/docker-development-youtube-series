@@ -4,6 +4,7 @@ metadata:
   name: example-service
 spec:
   selector:
+    type: LoadBalancer
     app: example-app
   ports:
     - protocol: TCP
