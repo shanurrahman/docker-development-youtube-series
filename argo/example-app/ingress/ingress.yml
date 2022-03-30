@@ -7,8 +7,8 @@ metadata:
 spec:
   ingressClassName: nginx-example
   selector:
-  app: example-app
-  
+    app: example-app
+
   rules:
   - http:
       paths:
