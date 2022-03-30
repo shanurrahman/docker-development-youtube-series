@@ -3,8 +3,9 @@ kind: Service
 metadata:
   name: example-service
 spec:
+  type: LoadBalancer
+  namespace: example-app
   selector:
-    type: LoadBalancer
     app: example-app
   ports:
     - protocol: TCP
